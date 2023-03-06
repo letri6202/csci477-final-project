@@ -3,22 +3,15 @@
 image_angle = point_direction(x,y,mouse_x,mouse_y);
 
 
-if keyboard_check(ord("A")) {
-	x -= spd;	
+if (keyboard_check(ord("W")) && y > 0) {
+	y -= spd;	
 }
 
-if keyboard_check(ord("D")) {
-	x += spd;	
+if (keyboard_check(ord("S")) && y <	640) {
+	y += spd;	
 }
 
 if mouse_check_button_pressed(mb_left) {
 	instance_create_layer(x, y, "Instances", obj_laser);
-	
-	
-	//with (bullet) {
-	//	dir = point_direction(x,y,mouse_x,mouse_y);
-	//	phy_rotation = false;
-	//	physics_apply_force(x, y, lengthdir_x(30, dir), lengthdir_y(30,dir));	
-	//}
 }
 
