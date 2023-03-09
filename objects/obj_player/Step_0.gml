@@ -11,7 +11,8 @@ if (keyboard_check(ord("S")) && y <	640) {
 	y += spd;	
 }
 
-if mouse_check_button_pressed(mb_left) {
+if (keyboard_check(vk_space)&&ready) {
+	alarm[0] = firerate;
+	ready = false;
 	instance_create_layer(x, y, "Instances", obj_laser);
 }
-

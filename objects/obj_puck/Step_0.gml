@@ -1,8 +1,8 @@
 
-if(place_meeting(x,y+1,obj_hwall)||place_meeting(x,y-1,obj_hwall)){
+if(place_meeting(x,y+vspeed,obj_wall)){
 	direction = -direction;
 }
-else if(place_meeting(x+1,y,obj_vwall)||place_meeting(x-1,y,obj_vwall)){
+else if(place_meeting(x+hspeed,y,obj_wall)){
 	direction = 180 - direction;
 }
 
