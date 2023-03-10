@@ -11,6 +11,7 @@ enum game_states {
 	GameOver,
 	Waiting,
 }
-global.playerPts=0;
-global.AIPts=0;
+points_scored = 0;
 global.game_state = game_states.Waiting;
+alarm[0] = 180;
+instance_deactivate_all(true);

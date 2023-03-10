@@ -2,5 +2,6 @@
 // You can write your code in this editor
 
 firerate = 20;
-spd = 4;
+spd = global.playerspd;
 ready = true;
+lsr_spd = 10;

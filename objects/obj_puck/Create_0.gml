@@ -3,5 +3,5 @@
 
 //Set up varibale for speed
 
-
+magnetic = global.magpck;
 
