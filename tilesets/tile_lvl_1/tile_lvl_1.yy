@@ -1,7 +1,7 @@
 {
   "resourceType": "GMTileSet",
   "resourceVersion": "1.0",
-  "name": "TileSet1",
+  "name": "tile_lvl_1",
   "spriteId": {
     "name": "spr_lvl_1",
     "path": "sprites/spr_lvl_1/spr_lvl_1.yy",

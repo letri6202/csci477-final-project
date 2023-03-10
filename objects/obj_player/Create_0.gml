@@ -4,3 +4,4 @@
 firerate = 20;
 spd = 4;
 ready = true;
+lsr_spd = 10;

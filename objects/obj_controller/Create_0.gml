@@ -14,3 +14,5 @@ enum game_states {
 global.playerPts=0;
 global.AIPts=0;
 global.game_state = game_states.Waiting;
+global.maglsr = false;
+global.magpck = false;
