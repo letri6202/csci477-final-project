@@ -11,5 +11,8 @@ switch(index){
 	case 4:
 	sprite_index = spr_powerup_magpck;
 	break;
+	case 5:
+	sprite_index = spr_powerup_bounce;
+	break;
 }
 

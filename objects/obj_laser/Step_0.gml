@@ -16,22 +16,35 @@ if(instance_exists(obj_puck)){
 		var d = point_direction(x,y,obj_puck.x,obj_puck.y);
 		
 		if(direction < 90 && d > 270){
-			direction -= .4;
-			image_angle -= .4;
+			direction -= .6;
+			image_angle -= .6;
 		}
 		else if((direction > 270 && d > 270)||(direction < 90 && d < 90)){
 			if(d < direction){
-				direction -= .4;
-				image_angle -= .4;
+				direction -= .6;
+				image_angle -= .6;
 			}
 			else if(d > direction){
-				direction += .4;
-				image_angle += .4;
+				direction += .6;
+				image_angle += .6;
 			}
 		}
 		else if(direction > 270 && d < 90){
-			direction += .4;
-			image_angle += .4;
+			direction += .6;
+			image_angle += .6;
 		}
 	}
+}
+if(bounces > 0){
+	if(place_meeting(x,y+vspeed,obj_wall)){
+		direction = -direction;
+		image_angle = -image_angle;
+		bounces -= 1;
+	}
+	else if(place_meeting(x+hspeed,y,obj_wall)){
+		direction = 180 - direction;
+		image_angle = 180 - image_angle;
+		bounces -= 1;
+	}
+	
 }

@@ -33,4 +33,3 @@ if(object_exists(obj_puck.object_index)){
 	
 }
 
-
