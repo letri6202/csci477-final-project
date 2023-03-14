@@ -20,6 +20,15 @@ switch(index){
 	case 5:
 	global.bounces += 1;
 	break;
+	case 6:
+	global.greenlsr = true;
+	break;
+	case 7:
+	global.purplsr = true;
+	break
+	case 8: 
+	global.pinklsr = true;
+	break;
 }
 var i = 0;
 while(global.powerups[i] != 0){
