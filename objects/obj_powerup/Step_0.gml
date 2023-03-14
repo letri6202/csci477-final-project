@@ -14,5 +14,14 @@ switch(index){
 	case 5:
 	sprite_index = spr_powerup_bounce;
 	break;
+	case 6:
+	sprite_index = spr_powerup_green;
+	break;
+	case 7:
+	sprite_index = spr_powerup_purple;
+	break;
+	case 8:
+	sprite_index = spr_powerup_pink;
+	break;
 }
 

@@ -8,3 +8,16 @@ image_angle = dir;
 motion_add(dir, spd);
 magnetic = global.maglsr;
 bounces = global.bounces;
+if(global.greenlsr){
+	if(global.purplsr){
+		if(global.pinklsr){
+			sprite_index = spr_laser_pink;
+		}
+		else{
+			sprite_index = spr_laser_purple;
+		}
+	}
+	else {
+		image_blend = c_lime;
+	}
+}
