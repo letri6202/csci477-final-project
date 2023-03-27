@@ -14,5 +14,5 @@ if (keyboard_check(ord("S")) && y <	640) {
 if (keyboard_check(vk_space)&&ready) {
 	alarm[0] = firerate;
 	ready = false;
-	instance_create_layer(x+(79*dcos(image_angle)), y-(50*dsin(image_angle)), "Instances", obj_laser);
+	instance_create_layer(x, y, "Instances", obj_laser);
 }

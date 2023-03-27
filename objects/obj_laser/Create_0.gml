@@ -7,7 +7,8 @@ dir = obj_player.image_angle;
 image_angle = dir;
 motion_add(dir, spd);
 magnetic = global.maglsr;
-bounces = global.bounces;
+isdelay = false;
+alarm[0] = 10;
 if(global.greenlsr){
 	if(global.purplsr){
 		if(global.pinklsr){

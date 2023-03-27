@@ -27,5 +27,17 @@ if(position_meeting(mouse_x,mouse_y,id)){
 		//sprite_index = spr_powerup_bounce;
 		draw_text(x-120,y-48,"+1 Laser Bounces");
 		break;
+		case 6:
+		//sprite_index = spr_powerup_green;
+		draw_text(x-120,y-48,"Laser Becomes Green");
+		break;
+		case 7:
+		//sprite_index = spr_powerup_purple;
+		draw_text(x-120,y-48,"Laser Becomes Purple");
+		break;
+		case 8:
+		//sprite_index = spr_powerup_pink;
+		draw_text(x-120,y-48,"Laser Becomes Pink");
+		break;
 	}
 }

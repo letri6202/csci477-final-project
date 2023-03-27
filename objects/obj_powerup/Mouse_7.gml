@@ -18,7 +18,7 @@ switch(index){
 	}
 	break;
 	case 5:
-	global.bounces += 1;
+	global.bounce = true;
 	break;
 	case 6:
 	global.greenlsr = true;

@@ -35,16 +35,16 @@ if(instance_exists(obj_puck)){
 		}
 	}
 }
-if(bounces > 0){
+if(global.bounce && isdelay){
 	if(place_meeting(x,y+vspeed,obj_wall)){
 		direction = -direction;
 		image_angle = -image_angle;
-		bounces -= 1;
+		isdelay = false;
 	}
 	else if(place_meeting(x+hspeed,y,obj_wall)){
 		direction = 180 - direction;
 		image_angle = 180 - image_angle;
-		bounces -= 1;
+		isdelay = false;
 	}
 	
 }
