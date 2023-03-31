@@ -12,6 +12,13 @@ enum game_states {
 	Waiting,
 }
 points_scored = 0;
-global.game_state = game_states.Waiting;
-alarm[0] = 180;
-instance_deactivate_all(true);
+
+if(room == rm_lvl_1) {
+	global.game_state = game_states.Waiting;
+	alarm[0] = 180;
+	instance_deactivate_all(true);	
+}
+else {
+	instance_deactivate_all(true);
+	display_powerups();
+}

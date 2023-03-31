@@ -35,4 +35,14 @@ while(global.powerups[i] != 0){
 	i+=1;
 }
 global.powerups[i] = index;
-instance_destroy();
+instance_destroy(obj_powerup);
+instance_activate_all();
+
+//Checking if player has just entered a new room
+//If so, then call the countdown after the powerup is clicked.
+if(obj_controller.points_scored == 0) {
+	global.game_state = game_states.Waiting;
+	obj_controller.alarm[0] = 180;
+	instance_deactivate_all(true);	
+	instance_activate_object(obj_controller);
+}
