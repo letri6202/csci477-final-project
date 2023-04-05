@@ -3,7 +3,7 @@
 
 if(position_meeting(mouse_x,mouse_y,id)){
 	draw_set_color(c_white);
-	draw_rectangle(x-128,y-64,x+128,y,false);
+	draw_rectangle(x-128,y-64,x+200,y,false);
 	draw_set_color(c_black);
 	draw_set_font(fnt_powerups);
 	var xloc=x-120;
@@ -32,15 +32,15 @@ if(position_meeting(mouse_x,mouse_y,id)){
 		break;
 		case 6:
 		//sprite_index = spr_powerup_green;
-		draw_text(x-120,y-48,"Laser Becomes Green");
+		draw_text(xloc,yloc,"Laser Becomes Green");
 		break;
 		case 7:
 		//sprite_index = spr_powerup_purple;
-		draw_text(x-120,y-48,"Laser Becomes Purple");
+		draw_text(xloc,yloc,"Laser Becomes Purple");
 		break;
 		case 8:
 		//sprite_index = spr_powerup_pink;
-		draw_text(x-120,y-48,"Laser Becomes Pink");
+		draw_text(xloc,yloc,"Laser Becomes Pink");
 		break;
 	}
 }
