@@ -1,3 +1,6 @@
+if(global.AIstunned) {
+	//
+} else {
 if(object_exists(obj_puck.object_index)){
 	//keep the ai on the other side of the puck relative to
 	//the center of the field
@@ -32,4 +35,4 @@ if(object_exists(obj_puck.object_index)){
 	image_angle = point_direction(x,y,target_x,target_y);
 	
 }
-
+}

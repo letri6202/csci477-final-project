@@ -23,5 +23,42 @@ switch(index){
 	case 8:
 	sprite_index = spr_powerup_pink;
 	break;
+	case 9:
+	sprite_index = spr_powerup_life;
+	break;
+	case 10:
+	sprite_index = spr_powerup_channel;
+	break;
+	case 11:
+	sprite_index = spr_powerup_barrier;
+	break;
+	case 12:
+	sprite_index = spr_powerup_larger;
+	break;
+	case 13:
+	sprite_index = spr_powerup_portal;
+	break;
+	case 14:
+	sprite_index = spr_powerup_repnet;
+	break;
+	case 15:
+	sprite_index = spr_powerup_stun;
+	break;
+	case 16:
+	sprite_index = spr_powerup_ghost;
+	break;
+	case 17:
+	sprite_index = spr_powerup_repshld;
+	break;
+	case 18:
+	sprite_index = spr_powerup_shields;
+	break;
+	case 19:
+	sprite_index = spr_powerup_mirror;
+	break;
+	case 20:
+	sprite_index = spr_powerup_firerate;
+	break;
+	
 }
 

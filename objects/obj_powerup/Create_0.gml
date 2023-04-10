@@ -5,6 +5,5 @@ index = 6;
 
 randomize();
 
-
-index = 5;
-index=irandom_range(1,8);
+//index = 5;
+index=irandom_range(1,20);

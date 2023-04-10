@@ -27,3 +27,14 @@ else {
 
 global.powerUpTiers=[];
 
+global.powerUpTiers=[];
+
+if(global.portal) {
+	instance_create_layer(64,128, "Instances", obj_portal_purple);
+	instance_create_layer(1216,480, "Instances", obj_portal_purple);
+	instance_create_layer(64,480, "Instances", obj_portal_green);
+	instance_create_layer(1216,128, "Instances", obj_portal_green);	
+}
+if(global.repnet) {
+	instance_create_layer(64,320, "Instances", obj_rep_net_radius);
+}
