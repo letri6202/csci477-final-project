@@ -24,7 +24,7 @@ if(global.greenlsr){
 	}
 }
 
-
+//Repulsion sector
 if(global.repshld) {
 	if(global.laser_large) {
 		repshld = instance_create_layer(x+sprite_width, y, "Instances", obj_repshld_large);
