@@ -12,7 +12,7 @@ enum game_states {
 	Waiting,
 }
 points_scored = 0;
-<<<<<<< Updated upstream
+
 
 if(room == rm_lvl_1) {
 	global.game_state = game_states.Waiting;
@@ -23,10 +23,7 @@ else {
 	instance_deactivate_all(true);
 	display_powerups();
 }
-=======
-global.game_state = game_states.Waiting;
-alarm[0] = 180;
-instance_deactivate_all(true);
+
 
 global.powerUpTiers=[];
->>>>>>> Stashed changes
+

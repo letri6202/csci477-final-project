@@ -6,7 +6,7 @@ switch(index){
 	break;
 	case 2:
 	global.playerspd += 2;
-	obj_player.spd += 2;
+	//obj_player.spd += 2;
 	break;
 	case 3:
 	global.maglsr = true;

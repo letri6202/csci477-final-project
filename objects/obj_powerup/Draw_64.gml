@@ -3,7 +3,7 @@
 
 if(position_meeting(mouse_x,mouse_y,id)){
 	draw_set_color(c_white);
-	draw_rectangle(x-128,y-64,x+200,y,false);
+	draw_rectangle(x-128,y-64,x+275,y,false);
 	draw_set_color(c_black);
 	draw_set_font(fnt_powerups);
 	var xloc=x-120;
