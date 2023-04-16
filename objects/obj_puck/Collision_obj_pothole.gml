@@ -1,14 +1,10 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-for( var i=0; i<instance_number(obj_open_sewer); i++){
-	sewer[i]=instance_find(obj_open_sewer,i);	
-}
+x=other.x + (2*hspeed);
+y=other.y + (2*vspeed);
 
-if(other==sewer[0]){
-	x=sewer[0].x+(2*hspeed)+10;
-	y=sewer[0].y+(2*vspeed)+10;
-} else{
-	x=sewer[0].x+(2*hspeed)+10;
-	y=sewer[0].y+(2*vspeed)+10;
+if(x>other.x+other.sprite_width/2 || x<other.x-other.sprite_width/2){
+	hspeed/=4;
+	vspeed/=4;
 }

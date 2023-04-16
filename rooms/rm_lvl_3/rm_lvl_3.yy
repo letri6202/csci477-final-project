@@ -25,6 +25,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2895748","properties":[],"isDnd":false,"objectId":{"name":"obj_puck","path":"objects/obj_puck/obj_puck.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":640.0,"y":320.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_71294C89","properties":[],"isDnd":false,"objectId":{"name":"obj_pothole","path":"objects/obj_pothole/obj_pothole.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":192.0,"y":512.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_72A3122E","properties":[],"isDnd":false,"objectId":{"name":"obj_pothole","path":"objects/obj_pothole/obj_pothole.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":992.0,"y":160.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6E3D34C6","properties":[],"isDnd":false,"objectId":{"name":"obj_aim","path":"objects/obj_aim/obj_aim.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":480.0,"y":256.0,},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Walls","instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2DEFC868","properties":[],"isDnd":false,"objectId":{"name":"obj_controller","path":"objects/obj_controller/obj_controller.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":960.0,"y":288.0,},
@@ -55,6 +56,7 @@
     {"name":"inst_2895748","path":"rooms/rm_lvl_3/rm_lvl_3.yy",},
     {"name":"inst_71294C89","path":"rooms/rm_lvl_3/rm_lvl_3.yy",},
     {"name":"inst_72A3122E","path":"rooms/rm_lvl_3/rm_lvl_3.yy",},
+    {"name":"inst_6E3D34C6","path":"rooms/rm_lvl_3/rm_lvl_3.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

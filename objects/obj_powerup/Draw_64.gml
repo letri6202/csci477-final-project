@@ -3,7 +3,7 @@
 
 if(position_meeting(mouse_x,mouse_y,id)){
 	draw_set_color(c_white);
-	draw_rectangle(x-128,y-64,x+275,y,false);
+	draw_rectangle(x-128,y-64,x+325,y,false);
 	draw_set_color(c_black);
 	draw_set_font(fnt_powerups);
 	var xloc=x-120;
@@ -43,40 +43,40 @@ if(position_meeting(mouse_x,mouse_y,id)){
 		draw_text(xloc,yloc,"Laser Becomes Pink");
 		break;
 		case 9:
-		draw_text(x-120, y-48, "Gain an extra life, enemy loses one point");
+		draw_text(xloc, yloc, "Gain an extra life, enemy loses one point");
 		break;
 		case 10:
-		draw_text(x-120, y-48, "Arena caves in, puck draws to center");
+		draw_text(xloc, yloc, "Arena caves in, puck draws to center");
 		break;
 		case 11:
-		draw_text(x-120, y-48, "Barrier blocks off net. 1 hit");
+		draw_text(xloc, yloc, "Barrier blocks off net. 1 hit");
 		break;
 		case 12:
-		draw_text(x-120, y-48, "Increase laser size");
+		draw_text(xloc, yloc, "Increase laser size");
 		break;
 		case 13:
-		draw_text(x-120, y-48, "Portals appear in the rink");
+		draw_text(xloc, yloc, "Portals appear in the rink");
 		break;
 		case 14:
-		draw_text(x-120, y-48, "Area in front of net repels puck");
+		draw_text(xloc, yloc, "Area in front of net repels puck");
 		break;
 		case 15:
-		draw_text(x-120, y-48, "Laser temporarily stuns AI");
+		draw_text(xloc,yloc, "Laser temporarily stuns AI");
 		break;
 		case 16:
-		draw_text(x-120, y-48, "Laser passes through puck. +magnetic/repulsion");
+		draw_text(xloc, yloc, "Laser passes through puck. +magnetic/repulsion");
 		break;
 		case 17:
-		draw_text(x-120, y-48, "Repels puck in zone in front of laser");
+		draw_text(xloc, yloc, "Repels puck in zone in front of laser");
 		break;
 		case 18:
-		draw_text(x-120, y-48, "+ Enemy score by up to 6, get shield of equal strength");
+		draw_text(xloc, yloc, "+ Enemy score by up to 6, get shield of equal strength");
 		break;
 		case 19:
-		draw_text(x-120, y-48, "Gain a turret that mirrors player. Doesn't get powerups.");
+		draw_text(xloc, yloc, "Gain a turret that mirrors player. Doesn't get powerups.");
 		break;
 		case 20:
-		draw_text(x-120, y-48, "Increase turret firerate");
+		draw_text(xloc, yloc, "Increase turret firerate");
 		break;
 	}
 }
