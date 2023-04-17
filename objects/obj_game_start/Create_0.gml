@@ -1,6 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+randomize();
+
 global.playerPts = 0;
 global.AIPts = 0;
 global.lsrspd = 10;
@@ -27,3 +29,4 @@ global.playerx = 0;
 global.playery = 0;
 global.gambit = false;
 global.powerups = array_create(24,0);
+global.currOptions=array_create(3,-1);

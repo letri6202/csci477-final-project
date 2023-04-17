@@ -3,10 +3,10 @@
 
 if(position_meeting(mouse_x,mouse_y,id)){
 	draw_set_color(c_white);
-	draw_rectangle(x-128,y-64,x+325,y,false);
+	draw_rectangle(x-158,y-64,x+325,y,false);
 	draw_set_color(c_black);
 	draw_set_font(fnt_powerups);
-	var xloc=x-120;
+	var xloc=x-150;
 	var yloc=y-48;
 	
 	switch(index){
@@ -70,10 +70,10 @@ if(position_meeting(mouse_x,mouse_y,id)){
 		draw_text(xloc, yloc, "Repels puck in zone in front of laser");
 		break;
 		case 18:
-		draw_text(xloc, yloc, "+ Enemy score by up to 6, get shield of equal strength");
+		draw_text(xloc, yloc, "+ Enemy score up to 6, get shield of equal strength");
 		break;
 		case 19:
-		draw_text(xloc, yloc, "Gain a turret that mirrors player. Doesn't get powerups.");
+		draw_text(xloc, yloc, "Gain a turret that mirrors you. Doesn't get powerups.");
 		break;
 		case 20:
 		draw_text(xloc, yloc, "Increase turret firerate");

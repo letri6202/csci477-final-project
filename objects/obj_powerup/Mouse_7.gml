@@ -1,12 +1,14 @@
 /// @description Insert description here
 // You can write your code in this editor
+
+global.currOptions=array_create(3,-1);
+
 switch(index){
 	case 1:
 	global.lsrspd += .75;
 	break;
 	case 2:
 	global.playerspd += 2;
-	//obj_player.spd += 2;
 	break;
 	case 3:
 	global.maglsr = true;
