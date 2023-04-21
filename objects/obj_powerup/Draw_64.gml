@@ -78,5 +78,13 @@ if(position_meeting(mouse_x,mouse_y,id)){
 		case 20:
 		draw_text(xloc, yloc, "Increase turret firerate");
 		break;
+		case 21:
+		draw_text(x-120, y-48, "Every 7 second, if puck is moving left");
+		draw_text(x-120, y-24, "it bounces off a wall and goes right");
+		break;
+		case 22:
+		draw_text(x-120, y-48, "Choose from 4 powerups instead of 3");
+		break;
+		
 	}
 }

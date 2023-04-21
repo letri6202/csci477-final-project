@@ -5,7 +5,6 @@ unused=false;
 notCurrOption=true;
 
 //randomize();
-
 do{
 
 	index=irandom_range(1,20);

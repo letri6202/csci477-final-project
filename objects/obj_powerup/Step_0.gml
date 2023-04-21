@@ -59,6 +59,12 @@ switch(index){
 	case 20:
 	sprite_index = spr_powerup_firerate;
 	break;
+	case 21:
+	sprite_index = spr_powerup_lucky;
+	break;
+	case 22:
+	sprite_index = spr_powerup_select;
+	break;
 	
 }
 

@@ -28,5 +28,7 @@ global.barrierHP = 0;
 global.playerx = 0;
 global.playery = 0;
 global.gambit = false;
+global.lucky = false;
+global.select = false;
 global.powerups = array_create(24,0);
 global.currOptions=array_create(3,-1);

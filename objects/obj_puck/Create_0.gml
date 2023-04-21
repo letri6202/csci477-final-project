@@ -4,3 +4,7 @@
 //Set up varibale for speed
 
 magnetic = global.magpck;
+
+if(global.lucky) {
+	alarm[2] = 7 * room_speed;	
+}

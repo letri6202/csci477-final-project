@@ -96,6 +96,14 @@ switch(index){
 			global.playerfirerate = 1;	
 		}
 		break;
+	case 21:
+		instance_activate_object(obj_puck);
+		obj_puck.alarm[2] = 7 * room_speed;
+		global.lucky = true;
+		break;
+	case 22:
+		global.select = true;
+		break;
 
 }
 var i = 0;
