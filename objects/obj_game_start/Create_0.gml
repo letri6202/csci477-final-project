@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 randomize();
-
+pageCount = 0;
 global.playerPts = 0;
 global.AIPts = 0;
 global.lsrspd = 10;
