@@ -11,20 +11,26 @@ isdelay = false;
 alarm[0] = 10;
 firstCollision = true;
 if(global.greenlsr){
-	if(global.purplsr){
-		if(global.pinklsr){
-			sprite_index = spr_laser_pink;
-		}
-		else{
-			sprite_index = spr_laser_purple;
-		}
+	image_blend = c_lime;
+}
+else if(global.purplsr){
+	if(global.laser_large) {
+		sprite_index = spr_laser_large_purple;
+	} else {
+		sprite_index = spr_laser_purple;
 	}
-	else {
-		image_blend = c_lime;
+} else if(global.pinklsr){
+	if(global.laser_large) {
+		sprite_index = spr_laser_large_pink;
+	} else {
+		sprite_index = spr_laser_pink;
 	}
+} else {
+	sprite_index = spr_laser_V2;	
 }
 
 //Repulsion sector
+
 if(global.repshld) {
 	if(global.laser_large) {
 		repshld = instance_create_layer(x+sprite_width, y, "Instances", obj_repshld_large);
@@ -35,4 +41,6 @@ if(global.repshld) {
 		repshld.y = y;
 		repshld.image_angle = image_angle;
 		repshld.image_alpha = 0.5;
-}	
+}	else {
+	repshld = instance_create_layer(x+sprite_width, y, "Instances", obj_repshld_placeholder);	
+}

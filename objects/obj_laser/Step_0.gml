@@ -49,17 +49,11 @@ if(global.bounce && isdelay){
 	
 }
 
-if(global.laser_large) {
-	sprite_index = spr_laser_large;
-}
-else {
-	sprite_index = spr_laser_V2;	
-}
 
-if(global.repshld) {
+
+
 	if(instance_exists(repshld)) {
 		repshld.x = x;
 		repshld.y = y;
 		repshld.image_angle = image_angle;
 	}
-}

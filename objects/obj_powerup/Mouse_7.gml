@@ -5,46 +5,52 @@ global.currOptions=array_create(3,-1);
 
 switch(index){
 	case 1:
-	global.lsrspd += .75;
-	break;
+		global.lsrspd += .75;
+		break;
 	case 2:
-	global.playerspd += 2;
-	break;
+		global.playerspd += 2;
+		break;
 	case 3:
-	global.maglsr = true;
-	break;
+		global.maglsr = true;
+		break;
 	case 4:
-	global.magpck = true;
-	if(instance_exists(obj_puck)){
-		obj_puck.magnetic = true;
-	}
-	break;
+		global.magpck = true;
+		if(instance_exists(obj_puck)){
+			obj_puck.magnetic = true;
+		}
+		break;
 	case 5:
-	global.bounce = true;
-	break;
+		global.bounce = true;
+		break;
 	case 6:
-	global.greenlsr = true;
-	break;
+		global.greenlsr = true;
+		global.purplsr = false;
+		global.pinklsr = false;
+		break;
 	case 7:
-	global.purplsr = true;
-	break
+		global.purplsr = true;
+		global.greenlsr = false;
+		global.pinklsr = false;
+		break
 	case 8: 
-	global.pinklsr = true;
-	break;
+		global.pinklsr = true;
+		global.purplsr = false;
+		global.greenlsr = false;
+		break;
 	case 9:
-	if(global.AIPts > 0) {
-		global.AIPts -= 1;
-	}
-	break;
+		if(global.AIPts > 0) {
+			global.AIPts -= 1;
+		}
+		break;
 	case 10:
-	global.channel = true;
-	break;
+		global.channel = true;
+		break;
 	case 11:
 		global.barrierHP += 1;
-	break;
+		break;
 	case 12:
-	global.laser_large = true;
-	break;
+		global.laser_large = true;
+		break;
 	case 13:
 	//To prevent unnecessary instances from being created
 		if(global.portal == false) {
@@ -86,6 +92,7 @@ switch(index){
 			}
 		break;
 	case 19:
+		global.mirror = true;
 		if(!instance_exists(obj_player_clone)) {
 			instance_create_layer(0,0, "Instances", obj_player_clone);
 		}

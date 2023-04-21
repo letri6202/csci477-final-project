@@ -5,8 +5,8 @@ unused=false;
 notCurrOption=true;
 
 //randomize();
-do{
 
+do{
 	index=irandom_range(1,20);
 	
 	for(i=0; i<array_length(global.powerups); i++){
@@ -34,3 +34,4 @@ for(i=0; i<array_length(global.currOptions);i++){
 		global.currOptions[i]=index;
 	}
 }
+

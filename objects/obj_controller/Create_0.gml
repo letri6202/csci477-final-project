@@ -38,3 +38,6 @@ if(global.portal) {
 if(global.repnet) {
 	instance_create_layer(64,320, "Instances", obj_rep_net_radius);
 }
+if(global.mirror) {
+	instance_create_layer(0,0, "Instances", obj_player_clone);	
+}
