@@ -78,6 +78,7 @@
     {"id":{"name":"tile_lvl_2","path":"tilesets/tile_lvl_2/tile_lvl_2.yy",},"order":1,},
     {"id":{"name":"spr_laser_V1","path":"sprites/spr_laser_V1/spr_laser_V1.yy",},"order":3,},
     {"id":{"name":"spr_lvl_3","path":"sprites/spr_lvl_3/spr_lvl_3.yy",},"order":28,},
+    {"id":{"name":"obj_aigoal_end","path":"objects/obj_aigoal_end/obj_aigoal_end.yy",},"order":29,},
     {"id":{"name":"obj_base_wall","path":"objects/obj_base_wall/obj_base_wall.yy",},"order":13,},
     {"id":{"name":"rm_lvl_3","path":"rooms/rm_lvl_3/rm_lvl_3.yy",},"order":4,},
     {"id":{"name":"spr_shield_gambit_plus","path":"sprites/spr_shield_gambit_plus/spr_shield_gambit_plus.yy",},"order":45,},
@@ -131,9 +132,9 @@
   "RoomOrderNodes": [
     {"roomId":{"name":"rm_splash","path":"rooms/rm_splash/rm_splash.yy",},},
     {"roomId":{"name":"rm_lvl_1","path":"rooms/rm_lvl_1/rm_lvl_1.yy",},},
-    {"roomId":{"name":"rm_lvl_4","path":"rooms/rm_lvl_4/rm_lvl_4.yy",},},
     {"roomId":{"name":"rm_lvl_2","path":"rooms/rm_lvl_2/rm_lvl_2.yy",},},
     {"roomId":{"name":"rm_lvl_3","path":"rooms/rm_lvl_3/rm_lvl_3.yy",},},
+    {"roomId":{"name":"rm_lvl_4","path":"rooms/rm_lvl_4/rm_lvl_4.yy",},},
     {"roomId":{"name":"rm_end_of_game","path":"rooms/rm_end_of_game/rm_end_of_game.yy",},},
   ],
   "Folders": [
