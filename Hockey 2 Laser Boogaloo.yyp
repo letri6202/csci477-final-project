@@ -91,7 +91,6 @@
     {"id":{"name":"spr_powerup_speed","path":"sprites/spr_powerup_speed/spr_powerup_speed.yy",},"order":17,},
     {"id":{"name":"ConfirmButton","path":"objects/ConfirmButton/ConfirmButton.yy",},"order":2,},
     {"id":{"name":"PlusButton","path":"objects/PlusButton/PlusButton.yy",},"order":0,},
-    {"id":{"name":"rm_lvl_4","path":"rooms/rm_lvl_4/rm_lvl_4.yy",},"order":5,},
     {"id":{"name":"spr_laser_large","path":"sprites/spr_laser_large/spr_laser_large.yy",},"order":33,},
     {"id":{"name":"spr_laser_purple","path":"sprites/spr_laser_purple/spr_laser_purple.yy",},"order":23,},
     {"id":{"name":"fnt_score","path":"fonts/fnt_score/fnt_score.yy",},"order":0,},
