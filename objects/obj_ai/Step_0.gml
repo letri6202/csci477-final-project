@@ -17,6 +17,7 @@ if(object_exists(obj_puck.object_index)){
 		//set an alarm to ready the ai after time = firerate
 		alarm[0] = firerate;
 		ready = false;
+		audio_play_sound(snd_enemylaser,0,false);
 		instance_create_layer(x, y, "Instances", obj_laser_enemy);
 	}
 	//advanced targeting

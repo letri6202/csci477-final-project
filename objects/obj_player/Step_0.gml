@@ -15,5 +15,6 @@ if (keyboard_check(ord("S")) && y <	640) {
 if ((keyboard_check(vk_space)&&ready) || (mouse_check_button_pressed(mb_left) && ready)) {
 	alarm[0] = global.playerfirerate;
 	ready = false;
+	audio_play_sound(snd_playerlaser,0,false);
 	instance_create_layer(x, y, "Instances", obj_laser);
 }

@@ -18,8 +18,21 @@ if(room == rm_lvl_1) {
 	global.game_state = game_states.Waiting;
 	alarm[0] = 180;
 	instance_deactivate_all(true);	
-}
-else {
+	audio_play_sound(music_rm1,0,true);
+	}
+	else {
+		if(room = rm_lvl_2){
+		audio_stop_sound(music_rm1);
+		audio_play_sound(music_rm2,0,true);
+	}
+	else if(room = rm_lvl_3){
+		audio_stop_sound(music_rm2);
+		audio_play_sound(music_rm3,0,true);
+	}
+	else if(room = rm_lvl_4){
+		audio_stop_sound(music_rm3);
+		audio_play_sound(music_rm4,0,true);
+	}
 	instance_deactivate_all(true);
 	display_powerups();
 }
