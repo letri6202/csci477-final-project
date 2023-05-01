@@ -118,7 +118,7 @@
     {"id":{"name":"obj_endgame","path":"objects/obj_endgame/obj_endgame.yy",},"order":28,},
   ],
   "Options": [
-    {"name":"Windows","path":"options/windows/options_windows.yy",},
+    {"name":"macOS","path":"options/mac/options_mac.yy",},
     {"name":"operagx","path":"options/operagx/options_operagx.yy",},
     {"name":"Main","path":"options/main/options_main.yy",},
   ],
