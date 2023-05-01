@@ -33,3 +33,4 @@ global.select = false;
 global.mirror = false;
 global.powerups = array_create(24,0);
 global.currOptions=array_create(3,-1);
+global.winner=false;
